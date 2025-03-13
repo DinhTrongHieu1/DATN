@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+  /* color: #151515; */
+  box-sizing: border-box;
+  color: #2c3930;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+}

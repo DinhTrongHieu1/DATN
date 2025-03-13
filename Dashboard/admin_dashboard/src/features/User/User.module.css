@@ -1,0 +1,42 @@
+.combo_box_container {
+  display: flex;
+  gap: 10px;
+}
+
+.custom_select {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* font-size: 14px; */
+  background-color: white;
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 40px;
+}
+.head h1 {
+  font-size: 30px;
+}
+.ctn_head {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.container {
+  box-shadow: 0 0.75rem 2.088rem rgba(0, 0, 0, 25%);
+  border-radius: 8px;
+}
+.inp {
+  width: 40%;
+}
+.ctn_foo {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}

@@ -1,0 +1,25 @@
+.container {
+  width: 80%;
+  /* margin: auto; */
+  /* text-align: center; */
+}
+.label {
+  display: inline-block;
+  padding: 10px 60px;
+  background: #0e4a3a;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin: 10px 0; */
+}
+.filename {
+  margin-top: 10px;
+}
+.box_img {
+  margin-top: 20px;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}

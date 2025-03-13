@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0.75rem 2.088rem rgba(0, 0, 0, 25%);
+  padding: 40px;
+  border-radius: 16px;
+  gap: 20px;
+}
+.txt_area {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 16px;
+  width: 80%;
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.inputbox p {
+  margin-bottom: 10px;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table {
+  flex: 1;
+}
+.box_btn_create {
+  text-align: center;
+}
+.btn {
+  /* width: 100%; */
+  width: 30%;
+  margin-top: 40px;
+}
+
+/* input file */
+.custom_file_upload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.file_input {
+  display: none; /* Hide default file input */
+}
+
+.custom_file_label {
+  background-color: #0d5441;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.custom_file_label:hover {
+  background-color: #083d2e;
+}
+
+.file_name {
+  font-size: 14px;
+  color: #555;
+}
+.inp {
+  width: 40%;
+}
