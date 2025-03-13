@@ -1,0 +1,31 @@
+.table_container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.category_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.category_table th,
+.category_table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.category_table th {
+  background-color: #f4f4f4;
+}
+
+.bold_text {
+  font-weight: bold;
+}
+
+.action_icon {
+  cursor: pointer;
+  color: #777;
+  font-size: 20px;
+}

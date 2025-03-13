@@ -1,0 +1,5 @@
+.container {
+  margin-left: var(--sidebar);
+  margin-top: 80px;
+  padding: 20px 40px;
+}
